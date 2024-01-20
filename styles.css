@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Белый фон */
+    color: #000; /* Черный текст */
+}
+
+header {
+    /* background-color: rgb(252, 252, 252); */
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-height: 30px; /* Высота логотипа */
+}
+
+header h1 {
+    margin-left: 10px; /* Отступ названия компании от логотипа */
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 0.5em;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2em;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(183, 183, 183);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.app-info {
+    display: flex;
+    align-items: left;
+    margin-top: 20px;
+    max-width: 1200px; /* Ограничение ширины блока */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.app-text {
+    flex: 1;
+}
+
+.app-text h3 {
+    margin-bottom: 5px;
+    /* font-size: 180px; */
+}
+
+.app-image img {
+    max-width: 600px;
+    min-height: 300px;
+    height: auto;
+    border-radius: 8px; /* Скругленные углы для изображения */
+}
+
+.rounded-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rounded-button:hover {
+    background-color: #2e87c1;
+}
+
+.rounded-button:active {
+    background-color: #276799;
+}
+
